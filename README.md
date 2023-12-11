@@ -4,6 +4,10 @@
 # AAI-521-Final
 Final project for AAI-521: Computer Vision, University of San Diego MS-AAI.
 
+
+** Demo App: https://huggingface.co/spaces/t4ai/oneeye **
+
+
 ## Business Understanding (Hypothetical)
 OneDefense, LLC is a defense contractor that provides high resolution satellite imagery with global coverage to the United States military and intelligence services.  The company has embarked on a strategy to provide AI-enrichment across its entire portfolio of imagery products in order to enable turnkey, high value use cases to customers.
 
