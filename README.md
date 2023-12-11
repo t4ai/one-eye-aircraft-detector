@@ -19,6 +19,18 @@ Provide counts of each aircraft type within the image frame
 MAR20 dataset (https://www.kaggle.com/datasets/khlaifiabilel/military-aircraft-recognition-dataset/data) was used for transfer learning.  The selected dataset contained a total of 3,842 images labeled with 20 classes of aircraft types.  In total, 22,341 instances of aircraft were labeled (Military Aircraft Recognition Dataset, 2022)
 
 ## Data Preparation
+### Image Augmentation and Resizing
+  - Image resizing to 640x640 px (YOLO optimized)
+  - Execute random horizontal flip and 90 degree rotate
+  - Execute random brightness and contrast adjust
+
+### Translate dataset from Pascal VOC to YOLO
+  - YOLO model architecture requires dataset file structure
+  - Label files translated from Pascal XML to flat txt
+  - Bounding boxes translated from Pascal to YOLO
+### Perform Train/Val/Test Split
+  - Dataset had a train/test split specified in a manifest file (no val) but was not split in filesystem
+  - Execute the split into YOLO format
 
 
 ## Model Training
