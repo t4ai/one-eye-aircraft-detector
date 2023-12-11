@@ -34,4 +34,16 @@ MAR20 dataset (https://www.kaggle.com/datasets/khlaifiabilel/military-aircraft-r
 
 
 ## Model Training
+### Model training:
+  - Leverage Ultralytics framework
+  - Hyperparameters largely set to defaults
+  - 100 epochs on T4 GPU
 
+### Experiments and Observations:
+  - Initial training run uncovered low representation of many classes in train split (and low performance)
+  - Second experiment executed with modified train/test split yielded much better results
+
+### Model performance on test data:
+  - YOLOv8 with transfer learning:
+  - mAP50 score: 88
+  - mAP-95 score: 66
