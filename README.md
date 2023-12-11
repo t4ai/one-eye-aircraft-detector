@@ -5,7 +5,7 @@
 Final project for AAI-521: Computer Vision, University of San Diego MS-AAI.
 
 
-** Demo App: https://huggingface.co/spaces/t4ai/oneeye **
+**Demo App:** https://huggingface.co/spaces/t4ai/oneeye 
 
 
 ## Business Understanding (Hypothetical)
